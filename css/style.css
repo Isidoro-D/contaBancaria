@@ -1,0 +1,94 @@
+/* ---------- RESETS GERAIS ---------- */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* ---------- HEADER ---------- */
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* ---------- NAV ---------- */
+
+nav {
+    display: flex;
+    background-color: #343a40;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all .5s;
+    font-size: 1.15rem;
+    padding: 6px 16px;
+    border: 1px solid #343a40;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    color: #007bff;
+    background-color: #202429;
+    border: 1px solid #1c2127;
+    border-radius: 8px;
+}
+
+/* ---------- CONTAINER ---------- */
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* ---------- CONTA CORRENTE FORM ---------- */
+
+form {
+    margin: 20px 0;
+}
+
+input[type="number"] {
+    padding: 5px;
+    font-size: 1.15rem;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    padding: 5px 15px;
+    font-size: 1.15rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0023b3;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    appearance: textfield;
+}
